@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fengche{
+            width: 100px;
+            height: 100px;
+            color: aquamarine;
+            background-color:aquamarine;
+            border-bottom-right-radius:  100px;
+            border-top-left-radius:40px ;
+            line-height: 20px;
+            text-align: center;
+        }
+        .fengche1{
+            width:  100px;
+            height: 100px;
+            background-color:aquamarine;
+            border-bottom-left-radius:  100px;
+            border-top-right-radius:40px ;
+            color: aquamarine;
+            line-height: 20px;
+
+        }
+        .fengche2{
+            width:  100px;
+            height: 100px;
+            background-color:aquamarine;
+            border-bottom-left-radius:  40px;
+            border-top-right-radius:100px ;
+            color: aquamarine;
+            line-height: 20px;
+        }
+        .fengche3{
+            width:  100px;
+            height: 100px;
+            background-color:aquamarine;
+            border-bottom-right-radius:  40px;
+            border-top-left-radius:100px ;
+            text-align: right;
+            color: aquamarine;
+            line-height: 20px;
+        }
+         #fengce1{
+            position: relative;
+             float: left;
+            left: 100px;
+            
+        }
+        #fengce{
+            position: relative;
+           float: right;
+            right: 100px; 
+        } 
+        #feng{
+            
+            width: 200px;
+            height: 200px;
+            transition: all 1s linear 1s;
+        }
+        #feng:hover{
+            transform: rotate(720deg);
+        }
+        #feng:hover div{
+            opacity:12;
+            transform: scale(0.9,0.9);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="feng">
+        <div id="fengce1">
+            <div class="fengche">风车</div>
+            <div class="fengche1">风车</div>
+        </div>
+            
+        <div id="fengce">
+            <div class="fengche2">风车</div>
+            <div class="fengche3">风车</div>
+        </div>
+    </div>
+    
+        
+       
+</body>
+</html>
